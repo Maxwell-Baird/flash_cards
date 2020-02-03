@@ -1,6 +1,7 @@
 class Deck
 
   attr_reader :cards
+  
   def initialize(array_of_cards_for_the_deck)
     @cards = array_of_cards_for_the_deck
   end
