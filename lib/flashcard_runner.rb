@@ -14,4 +14,4 @@ card7 = Card.new("What cardboard cutout lives at Turing?",'Justin Bieber',:Pop_C
 deck = Deck.new([card1, card2, card3, card4, card5, card6, card7])
 round = Round.new(deck)
 
-round.start()
+round.start
