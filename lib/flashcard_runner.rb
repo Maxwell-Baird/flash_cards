@@ -32,9 +32,7 @@ def start(round_parameter)
     count += 1
   end
   puts "********* GAME OVER *********"
-  puts "You had #{round_parameter.number_correct} out of #{round_parameter.deck.count}
-  for total score of #{round_parameter.percent_correct}%"
-
+  puts "You had #{round_parameter.number_correct} out of #{round_parameter.deck.count} for total score of #{round_parameter.percent_correct}%"
   already_shown = [:junk]
   category_holder.each do |percent_print|
     has_shown = false
